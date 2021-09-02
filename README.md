@@ -9,3 +9,7 @@ React + Material UI #1: Introduction - 2020 Edition
 React + Material UI #2: Actually coding a UX design
 
 - Complete
+
+React & Material UI #3: makeStyles
+
+- Complete
