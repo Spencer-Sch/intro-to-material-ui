@@ -1,20 +1,9 @@
 import './App.css';
 
-import { Button, Typography } from '@material-ui/core';
-import { makeStyles } from '@material-ui/core/styles';
-
-const useStyles = makeStyles({
-  
-});
+import React from 'react';
 
 function App() {
-  const classes = useStyles();
-
-  return (
-    <div>
-      
-    </div>
-  );
+  return <div></div>;
 }
 
 export default App;
