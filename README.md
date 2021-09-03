@@ -33,3 +33,7 @@ React & Material UI #7: Paper
 React & Material UI #8: Add dark mode to your site (theming)
 
 - Complete
+
+React & Material UI #9: Using MUI's Templates
+
+- Complete
