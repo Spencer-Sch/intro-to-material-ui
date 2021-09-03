@@ -29,3 +29,7 @@ React & Material UI #6: Themes - Making your own Theme
 React & Material UI #7: Paper
 
 - Complete
+
+React & Material UI #8: Add dark mode to your site (theming)
+
+- Complete
