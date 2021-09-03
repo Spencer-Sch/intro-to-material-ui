@@ -13,3 +13,11 @@ React + Material UI #2: Actually coding a UX design
 React & Material UI #3: makeStyles
 
 - Complete
+
+React & Material UI #4: Button
+
+- Complete
+
+React & Material UI #5: Typography
+
+- Complete
