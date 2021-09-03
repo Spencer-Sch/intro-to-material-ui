@@ -21,3 +21,7 @@ React & Material UI #4: Button
 React & Material UI #5: Typography
 
 - Complete
+
+React & Material UI #6: Themes - Making your own Theme
+
+- Complete
