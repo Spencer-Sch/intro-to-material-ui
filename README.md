@@ -37,3 +37,7 @@ React & Material UI #8: Add dark mode to your site (theming)
 React & Material UI #9: Using MUI's Templates
 
 - Complete
+
+React & Material UI #10: Grid & Grid Layout
+
+- Complete
