@@ -25,3 +25,7 @@ React & Material UI #5: Typography
 React & Material UI #6: Themes - Making your own Theme
 
 - Complete
+
+React & Material UI #7: Paper
+
+- Complete
