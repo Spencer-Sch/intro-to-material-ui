@@ -42,6 +42,10 @@ React & Material UI #10: Grid & Grid Layout
 
 - Complete
 
+React & Material UI #11: Grid Centering (Grid pt 2)
+
+-Complete
+
 React & Material UI #12: Cards + Cards layout with Grid
 
 - Complete
