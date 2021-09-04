@@ -41,3 +41,7 @@ React & Material UI #9: Using MUI's Templates
 React & Material UI #10: Grid & Grid Layout
 
 - Complete
+
+React & Material UI #12: Cards + Cards layout with Grid
+
+- Complete
