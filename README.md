@@ -49,3 +49,7 @@ React & Material UI #11: Grid Centering (Grid pt 2)
 React & Material UI #12: Cards + Cards layout with Grid
 
 - Complete
+
+React & Material UI #13: Simple Tables (2020 edition)
+
+-Complete
