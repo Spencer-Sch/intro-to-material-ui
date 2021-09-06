@@ -57,3 +57,7 @@ React & Material UI #13: Simple Tables (2020 edition)
 React & Material UI #14: Creating a Pokedex (part 1) - Setting up the project & routing
 
 - Complete
+
+React & Material UI #15: Creating a Pokedex (part 2) - Grid Layout + Cards
+
+- Complete
