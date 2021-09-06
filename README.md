@@ -44,7 +44,7 @@ React & Material UI #10: Grid & Grid Layout
 
 React & Material UI #11: Grid Centering (Grid pt 2)
 
--Complete
+- Complete
 
 React & Material UI #12: Cards + Cards layout with Grid
 
@@ -52,4 +52,8 @@ React & Material UI #12: Cards + Cards layout with Grid
 
 React & Material UI #13: Simple Tables (2020 edition)
 
--Complete
+- Complete
+
+React & Material UI #14: Creating a Pokedex (part 1) - Setting up the project & routing
+
+- Complete
