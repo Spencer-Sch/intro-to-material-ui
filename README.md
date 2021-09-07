@@ -73,3 +73,7 @@ React & Material UI #17: Creating a Pokedex (part 4) - Hooking up to PokeApi
 React & Material UI #18: Creating a Pokedex (part 5) - Adding a search bar to filter Pokemon results
 
 - Complete
+
+React & Material UI #19: Tabs + Tabs with React Router
+
+- Complete
