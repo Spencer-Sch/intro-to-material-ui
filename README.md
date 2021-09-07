@@ -69,3 +69,7 @@ React & Material UI #16: Creating a Pokedex (part 3) - Styling cards with Pokemo
 React & Material UI #17: Creating a Pokedex (part 4) - Hooking up to PokeApi
 
 - Complete
+
+React & Material UI #18: Creating a Pokedex (part 5) - Adding a search bar to filter Pokemon results
+
+- Complete

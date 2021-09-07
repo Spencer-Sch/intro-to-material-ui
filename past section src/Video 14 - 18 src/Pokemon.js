@@ -62,7 +62,7 @@ const Pokemon = (props) => {
         <Button
           variant="contained"
           onClick={() => {
-            history.pushState('/');
+            history.push('/');
           }}
         >
           Back to pokedex
