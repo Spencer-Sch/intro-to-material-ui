@@ -1,15 +1,27 @@
-import React, { useState } from 'react';
-import mockData from './mockData';
-import { Typography, Link } from '@material-ui/core';
+import React, { useEffect, useState } from 'react';
+import { Typography, Link, CircularProgress, Button } from '@material-ui/core';
 import { toFirstCharUppercase } from './constants';
+import axios from 'axios';
 
 const Pokemon = (props) => {
   console.log(props);
-  const pokemonId = props.match.params.pokemonId;
-  // const { match } = props;
-  // const { params } = match;
-  // const { pokemonId } = params;
-  const [pokemon, setPokemon] = useState(mockData[`${pokemonId}`]);
+  // const pokemonId = props.match.params.pokemonId;
+  const { match, history } = props;
+  const { params } = match;
+  const { pokemonId } = params;
+  const [pokemon, setPokemon] = useState(undefined);
+
+  useEffect(() => {
+    axios
+      .get(`https://pokeapi.co/api/v2/pokemon/${pokemonId}/`)
+      .then(function (response) {
+        const { data } = response;
+        setPokemon(data);
+      })
+      .catch(function (error) {
+        setPokemon(false);
+      });
+  }, [pokemonId]);
 
   const generatePokemonJSX = () => {
     const { name, id, species, height, weight, types, sprites } = pokemon;
@@ -32,16 +44,32 @@ const Pokemon = (props) => {
         <Typography>Weight: {weight}</Typography>
         <Typography variant="h6">Types:</Typography>
         {types.map((typeInfo) => {
-          const name = typeInfo.type.name;
-          // const { type } = typeInfo;
-          // const { name } = type;
+          // const name = typeInfo.type.name;
+          const { type } = typeInfo;
+          const { name } = type;
           return <Typography key={name}>{`${name}`}</Typography>;
         })}
       </>
     );
   };
 
-  return <>{generatePokemonJSX()}</>;
+  return (
+    <>
+      {pokemon === undefined && <CircularProgress />}
+      {pokemon !== undefined && pokemon && generatePokemonJSX(pokemon)}
+      {pokemon === false && <Typography>Pokemon not found</Typography>}
+      {pokemon !== undefined && (
+        <Button
+          variant="contained"
+          onClick={() => {
+            history.pushState('/');
+          }}
+        >
+          Back to pokedex
+        </Button>
+      )}
+    </>
+  );
 };
 
 export default Pokemon;
