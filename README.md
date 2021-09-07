@@ -61,3 +61,7 @@ React & Material UI #14: Creating a Pokedex (part 1) - Setting up the project & 
 React & Material UI #15: Creating a Pokedex (part 2) - Grid Layout + Cards
 
 - Complete
+
+React & Material UI #16: Creating a Pokedex (part 3) - Styling cards with Pokemon data
+
+- Complete
